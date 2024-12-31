@@ -1,0 +1,112 @@
+/* Table Styling */
+.availability-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .availability-table h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .availability-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .availability-table th,
+  .availability-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .availability-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .availability-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .availability-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .availability-table td[colspan='5'] {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Add Button Styling */
+  .add-button-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .add-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Form Container Styling */
+  .add-availability-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-availability-form h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-availability-form form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .add-availability-form form input[type="text"],
+  .add-availability-form form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .add-availability-form form button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .add-availability-form form button:hover {
+    background-color: #0056b3;
+  }
+  

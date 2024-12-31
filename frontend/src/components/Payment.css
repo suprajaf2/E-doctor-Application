@@ -1,0 +1,122 @@
+  .Payment2 {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .Payment2-amount,
+  .Payment2-appointment,
+  .Payment2-intentId {
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Payment2-createButton {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .Payment2-confirmButton {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .Payment2-clientSecret {
+    width: 100%;
+    max-width: 400px;
+    background-color: #e6f7ff;
+    padding: 15px;
+    border: 1px solid #cce7ff;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .Payment2-clientSecret p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .Payment2-statusMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #28a745;
+    text-align: center;
+  }
+  
+  .Payment2-currency {
+    margin: 20px 0; /* Add spacing between other form fields */
+    display: flex; /* Align items horizontally */
+    flex-direction: column; /* Stack label and select vertically */
+    gap: 8px; /* Spacing between label and select */
+  }
+  
+  .Payment2-currency label {
+    margin-right: 80px;
+    font-size: 1rem; /* Adjust font size */
+    font-weight: bold; /* Emphasize label text */
+    color: #333; /* Dark gray for text color */
+  }
+  
+  .Payment2-currency select {
+    padding: 8px 12px; /* Add padding for a better look */
+    font-size: 1rem; /* Match font size with other inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* Ensure a white background */
+    color: #333; /* Text color inside dropdown */
+    outline: none; /* Remove default outline on focus */
+    transition: border-color 0.3s; /* Smooth transition for focus state */
+  }
+  
+  .Payment2-currency select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue glow */
+  }
+  
+  .Payment2-currency option {
+    color: #333; /* Consistent text color for options */
+    background-color: #fff; /* Consistent background for options */
+  }
+  

@@ -1,0 +1,51 @@
+.feedback-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .feedback-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .submit-button {
+    width: 200px;
+    padding: 5px;
+    background: linear-gradient(45deg, #6EB4D1, #007BFF);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    align-self: center;
+    margin-left: 150px;
+  }
+  
+  .feedback-list {
+    margin-top: 30px;
+  }
+  
+  .feedback-card {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-card .MuiCardContent-root {
+    padding-bottom: 0;
+  }
+  

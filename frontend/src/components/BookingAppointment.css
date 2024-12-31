@@ -1,0 +1,93 @@
+/* Booking Appointment Styling */
+.booking-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-container h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .booking-form input[type="text"],
+  .booking-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .booking-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+  }
+  
+  .booking-form button {
+    display: block;
+    width: 250px;
+    padding: 10px 15px;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .booking-form button:hover {
+    background: linear-gradient(45deg, #007BFF, #6EB4D1);
+    transform: scale(1.05);
+  }
+  
+  .booking-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .booking-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .booking-table th,
+  .booking-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .booking-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .booking-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .booking-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .booking-table td {
+    text-align: center;
+  }

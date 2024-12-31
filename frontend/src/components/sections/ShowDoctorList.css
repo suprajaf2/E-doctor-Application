@@ -1,0 +1,42 @@
+/* ShowDoctorList.css */
+.doctor-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .doctor-card {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .doctor-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .doctor-card p {
+    margin: 5px 0;
+  }
+  
+  .doctor-card button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .doctor-card button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,150 @@
+
+  .doctorProfile {
+    background: linear-gradient(to right,#e3f2fd, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    height: 540px;
+    margin: 30px auto;
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  h2 {
+    color: #1565c0;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #42a5f5;
+    margin: 10px auto 0;
+    border-radius: 3px;
+  }
+  
+  /* Form Styling */
+  .doctorProfile form {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 15px;
+  }
+  
+  input {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input:focus {
+    border-color: #42a5f5;
+    box-shadow: 0 4px 8px rgba(66, 165, 245, 0.3);
+    transform: scale(1.02);
+  }
+  
+  input::placeholder {
+    color: #999;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #42a5f5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Doctor Profile Display
+  .doctorProfile> div {
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    animation: slideIn 1s ease-in-out;
+  }  */
+  
+  h3 {
+    color: #1565c0;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin: 5px 0;
+  }
+  
+  p strong {
+    color: #333;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 100%) {
+    div {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    input,
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

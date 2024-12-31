@@ -1,0 +1,97 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start (left side) */
+    background-image: url('homepage.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+    padding: 20px;
+    padding-left: 170px; /* Add padding to move content further from the left edge */
+  }
+  
+  .contact-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque */
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .contact-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-content strong {
+    color: #007bff;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      justify-content: center; /* Center for smaller screens */
+      padding-left: 20px;
+    }
+  
+    .contact-content {
+      padding: 20px;
+    }
+  
+    .contact-content h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-content p {
+      font-size: 1rem;
+    }
+  }
+  
